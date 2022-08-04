@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.35 112.5">
+  <g id="rocket">
+    <circle id="back_blue" cx="107.95" cy="34.14" r="25.41" style="fill: #1174ce;"/>
+    <circle id="big_green" cx="66" cy="61.24" r="51.26" style="fill: #54d171;"/>
+    <circle id="red_elipse" cx="26.56" cy="29.73" r="26.56" style="fill: #f91047;"/>
+    <circle id="medium_yellow" cx="95.23" cy="44.01" r="17.84" style="fill: #ddd02a;"/>
+    <circle id="big_blue" cx="64.3" cy="55.56" r="25.41" style="fill: #1174ce;"/>
+    <circle id="medium_purple" cx="86.45" cy="18.99" r="18.99" style="fill: #5242ea;"/>
+    <circle id="small_yellow" cx="52.96" cy="23.59" r="14.86" style="fill: #ddd02a;"/>
+  </g>
+</svg>
