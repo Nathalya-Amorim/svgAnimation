@@ -23,17 +23,42 @@
 body {
 
     color: aliceblue;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     background-color: black;
 }
 
 .exploring h1 {
     font-size: 45px;
-    margin-left: 4em;
+    margin-left: 0.5em;
     margin-top: 3em;
 }
 
+.nyanCat img{
+    width: 10%;
+    position: absolute;
+    z-index: 10000;
+}
+
+.nyanCat {
+ margin-top: -400px;
+ margin-left: -110px;
+ animation: flyingCat 7s linear infinite;
+}
+
+@keyframes flyingCat {
+
+    0% {
+        transform: translateX(-550px);
+    }
+     100%  {
+        transform: translateX(1100px);
+ 
+     }
+
+}
+
 .rock svg {
+    position: relative;
     width: 10%;
     margin-left: 30em;
     animation: animate 0.2s ease infinite;
@@ -52,24 +77,76 @@ body {
 }
 
 .circles svg { 
-    width: 10%;
-    
+    position: absolute;
+    width: 20%;
+    z-index: 5000;
+    margin-left: 420px;
+    margin-top: -125px;
+}
+
+
+#red_elipse {
+    animation: scale 1s ease-out infinite;
+}
+
+#big_blue {
+    animation: scale 1.3s ease-in infinite;
+}
+
+#medium_yellow {
+    animation: moveUpDown 0.5 ease-out infinite;
 
 }
 
-#red_elipse {
-    animation: scale 0.5s ease infinite;
+.circles {
+animation: moveUpDown 1.5s linear infinite;
+}
+
+#medium_purple {
+animation: scale02 1.5s ease-out infinite;
+}
+
+#small_yellow {
+    animation: scale 1.5s ease-out infinite;
+}
+
+#big_green {
+    animation: scale02 1.5s ease infinite;
+}
+
+#back_blue {
+    animation: scale02 1.8s ease infinite;
+
 }
 
 @keyframes scale {
     0% {
        transform: scale(1.0);
     }
-    50% {
-        transform: scale(1.3);
+
+    
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes scale02 {
+    0% {
+       transform: scale(1.0);
     }
 
     100% {
-        transform: scale(1.5);
+        transform: scale(1.1);
     }
 }
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(-10px);
+    }
+     100%  {
+        transform: translateY(-30px);
+ 
+     }
+ }
+
