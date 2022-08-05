@@ -12,7 +12,7 @@ Special appearance -> Nyan Cat
 ## Usage
 You may:
 
-- Create an online gallery with all SVG Icons created by you. 
+- Create an online animation with SVG . 
 
 ## Contributing 
 
