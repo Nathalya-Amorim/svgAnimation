@@ -2,8 +2,6 @@
  
 Simple  SVG Animation Project using keyframes. 
 
-Special appearance -> Nyan Cat
-
 
 # Installation
 

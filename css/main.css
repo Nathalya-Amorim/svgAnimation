@@ -33,29 +33,6 @@ body {
     margin-top: 3em;
 }
 
-.nyanCat img{
-    width: 10%;
-    position: absolute;
-    z-index: 10000;
-}
-
-.nyanCat {
- margin-top: -400px;
- margin-left: -110px;
- animation: flyingCat 7s linear infinite;
-}
-
-@keyframes flyingCat {
-
-    0% {
-        transform: translateX(-550px);
-    }
-     100%  {
-        transform: translateX(1100px);
- 
-     }
-
-}
 
 .rock svg {
     position: relative;
@@ -150,3 +127,48 @@ animation: scale02 1.5s ease-out infinite;
      }
  }
 
+
+
+ .animation svg {
+    position: absolute;
+    width:5%;
+    margin-top: -600px;
+    margin-left: 40px;
+
+}
+
+#starTwo {
+    margin-top: 429px;
+    margin-left: 672px;
+}
+#starTwo svg {
+    width: 10%;
+
+}
+
+#starThree {
+    margin-top: 529px;
+    margin-left: 272px;
+}
+
+#starFour {
+    margin-top: -430px;
+    margin-left: 455px;
+}
+
+#starFour svg {
+    width:3% ;
+}
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards infinite;
+    
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
